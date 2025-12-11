@@ -1,11 +1,14 @@
 [phases.setup]
-nixPkgs = ['php82', 'php82Extensions.mbstring', 'php82Extensions.json']
-
-[phases.install]
-cmds = [
-    'mkdir -p data',
-    'chmod 777 data'
+# PHP core dan extension penting untuk aplikasi
+nixPkgs = [
+  "php82",
+  "php82Extensions.mbstring",
+  "php82Extensions.pdo",
+  "php82Extensions.pdo_mysql"
 ]
 
+[phases.build]
+cmds = []
+
 [start]
-cmd = 'php -S 0.0.0.0:$PORT -t .'
+cmd = "php -S 0.0.0.0:${PORT} -t ."
