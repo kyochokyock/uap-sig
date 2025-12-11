@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "name": "Pendidikan_geo",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "NAMOBJ": "SMP Negeri 3 Negeri Besar",
+                "LUAS": 0,
+                "REMARK": "Pendidikan Menengah Pertama"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.02315589200003,
+                    -4.444321376999937,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NAMOBJ": "Pondok Pesantren Salfiyah",
+                "LUAS": 0,
+                "REMARK": "Pendidikan Keagamaan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.02319274300004,
+                    -4.448164555999938,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NAMOBJ": "MTS Satu",
+                "LUAS": 0,
+                "REMARK": "Pendidikan Menengah Pertama"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.02232743400003,
+                    -4.448426938999944,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NAMOBJ": "MTS",
+                "LUAS": 0,
+                "REMARK": "Pendidikan Menengah Pertama"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.02211944400005,
+                    -4.448464828999931,
+                    0
+                ]
+            }
+        }
+    ]
+}
