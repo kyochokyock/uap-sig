@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$file = '../data/pendidikan.geojson';
+$file = '../data/Pendidikan_geo.geojson';
 $input = json_decode(file_get_contents('php://input'), true);
 
 if (!$input || !isset($input['namobj']) || !isset($input['latitude']) || !isset($input['longitude'])) {
@@ -35,4 +35,5 @@ if (file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT))) {
 } else {
     echo json_encode(['success' => false, 'message' => 'Gagal menyimpan data']);
 }
+
 ?>
